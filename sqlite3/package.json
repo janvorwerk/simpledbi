@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/angexis/simpledbi/issues"
   },
-  "homepage": "https://github.com/angexis/simpledbi#readme",
+  "homepage": "https://github.com/angexis/simpledbi/blob/master/sqlite3/SQLITE3.md",
   "dependencies": {
     "simpledbi": "^0.1.0",
     "sqlite3": "^3.1.8"
