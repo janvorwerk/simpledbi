@@ -4,7 +4,7 @@ import { DatabaseAdapter, SqlRunResult, SqlOptions } from 'simpledbi/simpledbi';
 /**
  * The SQlite adapter (using the 'sqlite3' NPM package)
  */
-export class Sqlite3QueryAdapter extends DatabaseAdapter {
+export class Sqlite3DatabaseAdapter extends DatabaseAdapter {
 
     constructor(public db: Database) { super() }
 

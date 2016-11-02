@@ -9,11 +9,13 @@ It is as simple as that...
 
 ```TypeScript
 import { Database } from 'sqlite3';
-import { SqlQuery, SqlProxy, DatabaseAdapter, SqlRun, SqlRunResult, SqlScript, SqlGet } from 'simpledbi/simpledbi';
+import { SqlProxy, DatabaseAdapter, SqlRunResult,
+         SqlQuery, SqlRun, SqlScript, SqlGet
+    } from 'simpledbi/simpledbi';
 
-import { Sqlite3QueryAdapter } from 'simpledbi-sqlite3/simpledbi-sqlite3';
+import { Sqlite3DatabaseAdapter } from 'simpledbi-sqlite3/simpledbi-sqlite3';
 
-const dbAdapter = new Sqlite3QueryAdapter(new Database('./test.db'));
+const dbAdapter = new Sqlite3DatabaseAdapter(new Database('./test.db'));
 
 interface LoremRecord {
     id: number;
