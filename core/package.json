@@ -1,0 +1,32 @@
+{
+  "name": "simpledbi",
+  "version": "0.1.1",
+  "description": "A simple database interface based on TypeScript annotations",
+  "main": "simpledbi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angexis/simpledbi.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "annotations",
+    "database",
+    "SQL"
+  ],
+  "author": "Jan Vorwerk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angexis/simpledbi/issues"
+  },
+  "homepage": "https://github.com/angexis/simpledbi#readme",
+  "devDependencies": {
+    "@types/node": "^6.0.46",
+    "typescript": "^2.0.6"
+  },
+  "dependencies": {
+    "function-arguments": "^1.0.8"
+  }
+}

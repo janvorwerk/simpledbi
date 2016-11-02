@@ -1,0 +1,34 @@
+{
+  "name": "simpledbi-sqlite3",
+  "version": "0.1.0",
+  "description": "A binding of simpledbi for sqlite3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angexis/simpledbi.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "annotations",
+    "database",
+    "SQL",
+    "SQLite"
+  ],
+  "author": "Jan Vorwerk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angexis/simpledbi/issues"
+  },
+  "homepage": "https://github.com/angexis/simpledbi#readme",
+  "dependencies": {
+    "simpledbi": "^0.1.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "@types/sqlite3": "^2.2.31",
+    "measure-time": "^3.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+.vscode/
+**/node_modules/
+**/*.map
+**/*.js
+sqlite3/test.db
