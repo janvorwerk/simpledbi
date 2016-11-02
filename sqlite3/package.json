@@ -1,6 +1,6 @@
 {
   "name": "simpledbi-sqlite3",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A binding of simpledbi for sqlite3",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
   "bugs": {
     "url": "https://github.com/angexis/simpledbi/issues"
   },
-  "homepage": "https://github.com/angexis/simpledbi/blob/master/sqlite3/SQLITE3.md",
+  "homepage": "https://github.com/angexis/simpledbi/blob/master/sqlite3/README.md",
   "dependencies": {
-    "simpledbi": "^0.1.0",
+    "simpledbi": "^0.1.2",
     "sqlite3": "^3.1.8"
   },
   "devDependencies": {
